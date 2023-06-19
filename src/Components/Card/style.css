@@ -1,0 +1,12 @@
+
+.country-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    width:200px;
+    /* display: flex; */
+}
+
+.card-body {}

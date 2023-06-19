@@ -1,0 +1,26 @@
+.choicebar {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+@media screen and (min-width:572px) {
+    .choicebar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .input-group {
+        width: 30%;
+    }
+}
+
+
+.btn-dark, .cb-dark {
+    color: gray;
+}
+
+.btn-light, .cb-light {
+    color: #6a6a6a;
+}
